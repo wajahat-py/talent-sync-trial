@@ -3,7 +3,7 @@
     "event_id": "evt_010",
     "event_type": "contact.updated",
     "event_timestamp": "2026-06-02T08:00:00+00:00",
-    "reason": "missing_contact_id",
+    "reason": "malformed_payload: missing or invalid contact_id in payload",
     "raw_payload": {
       "rate_usd_hr": 48
     }
