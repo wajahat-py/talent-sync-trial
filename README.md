@@ -176,6 +176,9 @@ The pipeline handles event-level failures gracefully via dead-lettering but does
 ### Pending Reply Handling
 If a reply arrives before its contact exists, it is queued in `pending_updates`. The current flush logic handles contact updates only. A future improvement routes pending replies through the full LLM classification step after the contact is created.
 
+## Multiple Replies Per Contact
+The current pipeline uses last-reply-wins semantics. When a contact sends more than one reply, the latest classification overwrites the previous one on the contact row. The full reply history is preserved in processed_replies but only the most recent interest and interest_reason are reflected in the roster. A production system would fetch all replies for a contact, pass them together to the LLM as a conversation thread, and produce a holistic classification that accounts for how the person's position evolved over time. Alternatively, a second reply that contradicts the first could automatically trigger a human review flag rather than silently overwriting the previous classification.
+
 ### Embedding-Based Doc Matching
 The current approach requires verbatim project name matches. A production system would use embedding similarity via Supabase pgvector to match replies to docs even when the project name is paraphrased or misspelled.
 
