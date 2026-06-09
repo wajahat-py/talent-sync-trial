@@ -1,9 +1,9 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_041322
-- **Started:** 2026-06-09T08:13:22.877Z
-- **Completed:** 2026-06-09T08:13:56.426Z
+- **Run ID:** run_20260609_041813
+- **Started:** 2026-06-09T08:18:13.045Z
+- **Completed:** 2026-06-09T08:18:46.903Z
 
 ## This Run
 - **Total Events In Feed:** 0
@@ -31,8 +31,8 @@ When two events update the same field with the same timestamp, the event with th
 - **evt_020** (talent.vibe_check): unknown_event_type
 
 ## Review Queue (pending review)
-- **c_sara** (evt_019): confidence 0.65
 - **c_tomas** (evt_028): confidence 0.65
+- **c_sara** (evt_019): confidence 0.65
 
 ## Roster Snapshot
 | Contact | Rate | Stage | Interest | Doc Link |
