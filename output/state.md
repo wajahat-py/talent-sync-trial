@@ -1,22 +1,19 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_042203
-- **Started:** 2026-06-09T08:22:03.648Z
-- **Completed:** 2026-06-09T08:22:38.489Z
+- **Run ID:** run_20260609_042510
+- **Started:** 2026-06-09T08:25:10.672Z
+- **Completed:** 2026-06-09T08:25:23.273Z
 
 ## This Run
 - **Total Events In Feed:** 32
-- **Unique Events Processed:** 28
-- **Dead Lettered:** 2
-- **Flagged For Review:** 2
-- **Replies Classified:** 6
+- **Unique Events Processed:** 0
+- **Dead Lettered:** 0
+- **Flagged For Review:** 0
+- **Replies Classified:** 0
 
 ### Event Type Breakdown
-- **contact.created:** 7
-- **contact.updated:** 14
-- **reply.received:** 6
-- **talent.vibe_check:** 1
+No events processed this run.
 
 ## Overall System State
 - **Contacts In Roster:** 7
