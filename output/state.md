@@ -1,25 +1,36 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_034858
-- **Started:** 2026-06-09T07:48:58.504Z
-- **Completed:** 2026-06-09T07:49:31.810Z
+- **Run ID:** run_20260609_040145
+- **Started:** 2026-06-09T08:01:45.928Z
+- **Completed:** 2026-06-09T08:02:19.399Z
 
-## What Was Processed
+## This Run
+- **Total Events Attempted:** 30
 - **Unique Events Processed:** 28
-- **Contacts In Roster:** 7
-- **Replies Classified:** 6
 - **Dead Lettered:** 2
 - **Flagged For Review:** 2
+- **Replies Classified:** 6
+
+### Event Type Breakdown
+- **contact.created:** 7
+- **contact.updated:** 14
+- **reply.received:** 6
+- **talent.vibe_check:** 1
+
+## Overall System State
+- **Contacts In Roster:** 7
+- **Total Dead Lettered (all runs):** 2
+- **Total Pending Review (all runs):** 2
 
 ## Conflict Resolution Rule
 When two events update the same field with the same timestamp, the event with the lexicographically larger event_id wins.
 
-## Dead Letter Log
+## Dead Letter Log (all time)
 - **evt_010** (contact.updated): malformed_payload: missing or invalid contact_id in payload
 - **evt_020** (talent.vibe_check): unknown_event_type
 
-## Review Queue
+## Review Queue (pending review)
 - **c_sara** (evt_019): confidence 0.65
 - **c_tomas** (evt_028): confidence 0.65
 
