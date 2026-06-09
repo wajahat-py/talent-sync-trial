@@ -7,7 +7,8 @@
     "rate_usd_hr": 50,
     "stage": "contacted",
     "interest": "pending",
-    "doc_link": null
+    "doc_link": null,
+    "interest_reason": null
   },
   {
     "contact_id": "c_bob",
@@ -17,7 +18,8 @@
     "rate_usd_hr": 45,
     "stage": "contacted",
     "interest": "interested",
-    "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md"
+    "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md",
+    "interest_reason": "They explicitly expressed enthusiasm ('sounds exactly like the kind of build I've been hoping for'), confirmed commitment ('count me in'), provided specific availability, and demonstrated engagement by identifying a concrete starting point for the project."
   },
   {
     "contact_id": "c_diego",
@@ -27,7 +29,8 @@
     "rate_usd_hr": 36,
     "stage": "contacted",
     "interest": "interested",
-    "doc_link": "no doc found"
+    "doc_link": "no doc found",
+    "interest_reason": "They explicitly confirmed interest with 'Count me in', demonstrated direct expertise alignment by stating growth for voice products is their specialty, and made a concrete commitment to dedicate 10 hours per week starting immediately."
   },
   {
     "contact_id": "c_jamie",
@@ -37,7 +40,8 @@
     "rate_usd_hr": 55,
     "stage": "contacted",
     "interest": "declined",
-    "doc_link": null
+    "doc_link": null,
+    "interest_reason": "They explicitly declined the opportunity due to existing commitments through August and stated they will pass."
   },
   {
     "contact_id": "c_lena",
@@ -47,7 +51,8 @@
     "rate_usd_hr": 50,
     "stage": null,
     "interest": "interested",
-    "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md"
+    "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md",
+    "interest_reason": "They explicitly stated 'I'm in' and demonstrated direct relevant experience in personal finance tooling, the core domain of PocketCFO."
   },
   {
     "contact_id": "c_sara",
@@ -57,7 +62,8 @@
     "rate_usd_hr": 38,
     "stage": "contacted",
     "interest": "needs_review",
-    "doc_link": null
+    "doc_link": null,
+    "interest_reason": "The prospect shows genuine interest in the opportunity but their current unavailability and uncertain timeline ('let's see how the month goes') prevents a clear commitment, requiring manual review to determine appropriate follow-up strategy."
   },
   {
     "contact_id": "c_tomas",
@@ -67,6 +73,7 @@
     "rate_usd_hr": 46,
     "stage": "contacted",
     "interest": "needs_review",
-    "doc_link": "no doc found"
+    "doc_link": "no doc found",
+    "interest_reason": "The reply shows genuine interest and relevant expertise in design systems for health/fitness, but lacks specific commitment details such as availability, scope of work, or concrete next steps needed to move forward."
   }
 ]
