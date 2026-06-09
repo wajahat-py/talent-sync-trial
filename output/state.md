@@ -1,9 +1,9 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_055932
-- **Started:** 2026-06-09T09:59:32.021Z
-- **Completed:** 2026-06-09T09:59:39.411Z
+- **Run ID:** run_20260609_060634
+- **Started:** 2026-06-09T10:06:34.216Z
+- **Completed:** 2026-06-09T10:06:42.989Z
 
 ## This Run
 - **Total Events In Feed:** 32
@@ -32,12 +32,12 @@ When two events update the same field with the same timestamp, the event with th
 - **c_tomas** (evt_028): confidence 0.65
 
 ## Roster Snapshot
-| Contact | Rate | Stage | Interest | Doc Link |
-|---|---|---|---|---|
-| c_anika | 50 | contacted | pending | null |
-| c_bob | 45 | contacted | interested | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md |
-| c_diego | 36 | contacted | interested | no doc found |
-| c_jamie | 55 | contacted | declined | null |
-| c_lena | 50 | null | interested | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md |
-| c_sara | 38 | contacted | needs_review | null |
-| c_tomas | 46 | contacted | needs_review | no doc found |
+| Contact | Rate | Stage | Interest | Interest Reason | Doc Link |
+|---|---|---|---|---|---|
+| c_anika | 50 | contacted | pending | null | null |
+| c_bob | 45 | contacted | interested | They explicitly expressed enthusiasm ('sounds exactly like the kind of build I've been hoping for'), confirmed commitment ('count me in'), provided specific availability, and demonstrated engagement by identifying a concrete starting point for the project. | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md |
+| c_diego | 36 | contacted | interested | They explicitly confirmed interest with 'Count me in', demonstrated direct expertise alignment by stating growth for voice products is their specialty, and made a concrete commitment to dedicate 10 hours per week starting immediately. | no doc found |
+| c_jamie | 55 | contacted | declined | They explicitly declined the opportunity due to existing commitments through August and stated they will pass. | null |
+| c_lena | 50 | null | interested | They explicitly stated 'I'm in' and demonstrated direct relevant experience in personal finance tooling, the core domain of PocketCFO. | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md |
+| c_sara | 38 | contacted | needs_review | The prospect shows genuine interest in the opportunity but their current unavailability and uncertain timeline ('let's see how the month goes') prevents a clear commitment, requiring manual review to determine appropriate follow-up strategy. | null |
+| c_tomas | 46 | contacted | needs_review | The reply shows genuine interest and relevant expertise in design systems for health/fitness, but lacks specific commitment details such as availability, scope of work, or concrete next steps needed to move forward. | no doc found |
