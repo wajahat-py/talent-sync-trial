@@ -1,12 +1,12 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_041935
-- **Started:** 2026-06-09T08:19:35.951Z
-- **Completed:** 2026-06-09T08:20:08.735Z
+- **Run ID:** run_20260609_042203
+- **Started:** 2026-06-09T08:22:03.648Z
+- **Completed:** 2026-06-09T08:22:38.489Z
 
 ## This Run
-- **Total Events In Feed:** 1
+- **Total Events In Feed:** 32
 - **Unique Events Processed:** 28
 - **Dead Lettered:** 2
 - **Flagged For Review:** 2
@@ -32,7 +32,7 @@ When two events update the same field with the same timestamp, the event with th
 
 ## Review Queue (pending review)
 - **c_tomas** (evt_028): confidence 0.65
-- **c_sara** (evt_019): confidence 0.6
+- **c_sara** (evt_019): confidence 0.65
 
 ## Roster Snapshot
 | Contact | Rate | Stage | Interest | Doc Link |
