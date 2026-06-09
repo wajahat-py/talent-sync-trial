@@ -30,5 +30,11 @@
   {"event_id":"evt_025","type":"contact.updated","timestamp":"2026-06-03T13:00:00Z","payload":{"contact_id":"c_tomas","rate_usd_hr":46}},
   {"event_id":"evt_026","type":"contact.updated","timestamp":"2026-06-03T14:00:00Z","payload":{"contact_id":"c_anika","location":"Vancouver"}},
   {"event_id":"evt_027","type":"reply.received","timestamp":"2026-06-03T15:00:00Z","payload":{"contact_id":"c_lena","text":"Saw the PocketCFO one-pager — personal finance tooling is where I've spent the last two years. I'm in, if the timing works."}},
-  {"event_id":"evt_028","type":"reply.received","timestamp":"2026-06-03T16:00:00Z","payload":{"contact_id":"c_tomas","text":"Hey — I'd be down to help on the fitness app you mentioned at the meetup. Design systems for health stuff are my favorite kind of work."}}
+  {"event_id":"evt_028","type":"reply.received","timestamp":"2026-06-03T16:00:00Z","payload":{"contact_id":"c_tomas","text":"Hey — I'd be down to help on the fitness app you mentioned at the meetup. Design systems for health stuff are my favorite kind of work."}},
+  {"event_id":"evt_029","type":"reply.received","timestamp":"2026-06-04T10:00:00Z","payload":{"contact_id":"c_anika","text":"Yes! The PocketCFO concept is right up my alley — the runway math especially. Count me in."}},
+  {"event_id":"evt_030","type":"contact.created","timestamp":"2026-06-04T11:00:00Z","payload":{"contact_id":"c_marco","name":"Marco Ribeiro","role":"backend","location":"São Paulo","rate_usd_hr":42}},
+  {"event_id":"evt_030","type":"contact.created","timestamp":"2026-06-04T11:00:00Z","payload":{"contact_id":"c_marco","name":"Marco Ribeiro","role":"backend","location":"São Paulo","rate_usd_hr":42}},
+  {"event_id":"evt_031","type":"contact.updated","timestamp":"2026-06-04T09:00:00Z","payload":{"contact_id":"c_bob","rate_usd_hr":48}},
+  {"event_id":"evt_032","type":"reply.received","timestamp":"2026-06-05T09:00:00Z","payload":{"contact_id":"c_sara","text":"Okay, I've thought about it and I have to pass for now — too much on my plate this quarter. Thanks for thinking of me though."}},
+  {"event_id":"evt_033","type":"contact.archived","timestamp":"2026-06-05T10:00:00Z","payload":{"contact_id":"c_jamie","reason":"no longer available"}}
 ]
