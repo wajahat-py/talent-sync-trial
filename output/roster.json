@@ -6,16 +6,16 @@
     "location": "Vancouver",
     "rate_usd_hr": 50,
     "stage": "contacted",
-    "interest": "pending",
-    "doc_link": null,
-    "interest_reason": null
+    "interest": "interested",
+    "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md",
+    "interest_reason": "Collaborator explicitly mentions PocketCFO by exact name and expresses clear enthusiasm with specific feature interest (runway math), indicating strong alignment."
   },
   {
     "contact_id": "c_bob",
     "name": "Bob Ferreira",
     "role": "backend",
     "location": "Rio de Janeiro",
-    "rate_usd_hr": 45,
+    "rate_usd_hr": 48,
     "stage": "contacted",
     "interest": "interested",
     "doc_link": "https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md",
@@ -55,15 +55,26 @@
     "interest_reason": "They explicitly stated 'I'm in' and demonstrated direct relevant experience in personal finance tooling, the core domain of PocketCFO."
   },
   {
+    "contact_id": "c_marco",
+    "name": "Marco Ribeiro",
+    "role": "backend",
+    "location": "São Paulo",
+    "rate_usd_hr": 42,
+    "stage": null,
+    "interest": "pending",
+    "doc_link": null,
+    "interest_reason": null
+  },
+  {
     "contact_id": "c_sara",
     "name": "Sara Okafor",
     "role": "frontend",
     "location": "Lagos",
     "rate_usd_hr": 38,
     "stage": "contacted",
-    "interest": "needs_review",
+    "interest": "declined",
     "doc_link": null,
-    "interest_reason": "The prospect shows genuine interest in the opportunity but their current unavailability and uncertain timeline ('let's see how the month goes') prevents a clear commitment, requiring manual review to determine appropriate follow-up strategy."
+    "interest_reason": "Collaborator explicitly declined the opportunity citing current workload constraints this quarter."
   },
   {
     "contact_id": "c_tomas",
