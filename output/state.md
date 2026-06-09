@@ -1,9 +1,9 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_043916
-- **Started:** 2026-06-09T08:39:16.729Z
-- **Completed:** 2026-06-09T08:39:25.538Z
+- **Run ID:** run_20260609_050340
+- **Started:** 2026-06-09T09:03:40.552Z
+- **Completed:** 2026-06-09T09:03:49.963Z
 
 ## This Run
 - **Total Events In Feed:** 32
@@ -32,12 +32,12 @@ When two events update the same field with the same timestamp, the event with th
 - **c_sara** (evt_019): confidence 0.65
 
 ## Roster Snapshot
-| Contact | Rate | Stage | Interest | Doc Link |
-|---|---|---|---|---|
-| c_anika | 50 | contacted | pending | null |
-| c_bob | 45 | contacted | interested | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md |
-| c_diego | 36 | contacted | interested | no doc found |
-| c_jamie | 55 | contacted | declined | null |
-| c_lena | 50 | null | interested | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md |
-| c_sara | 38 | contacted | needs_review | null |
-| c_tomas | 46 | contacted | needs_review | no doc found |
+| Contact | Rate | Stage | Interest | Interest Reason | Doc Link |
+|---|---|---|---|---|---|
+| c_anika | 50 | contacted | pending | null | null |
+| c_bob | 45 | contacted | interested | null | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/voiceloop-prd.md |
+| c_diego | 36 | contacted | interested | null | no doc found |
+| c_jamie | 55 | contacted | declined | null | null |
+| c_lena | 50 | null | interested | null | https://github.com/wajahat-py/talent-sync-trial/blob/main/docs/pocketcfo-prd.md |
+| c_sara | 38 | contacted | needs_review | null | null |
+| c_tomas | 46 | contacted | needs_review | null | no doc found |
