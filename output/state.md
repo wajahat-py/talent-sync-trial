@@ -1,14 +1,14 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_033922
-- **Started:** 2026-06-09T07:39:22.267Z
-- **Completed:** 2026-06-09T07:39:52.411Z
+- **Run ID:** run_20260609_034003
+- **Started:** 2026-06-09T07:40:03.923Z
+- **Completed:** 2026-06-09T07:40:12.226Z
 
 ## What Was Processed
-- **Unique Events Processed:** 28
+- **Unique Events Processed:** 0
 - **Contacts In Roster:** 7
-- **Replies Classified:** 6
+- **Replies Classified:** 0
 - **Dead Lettered:** 2
 - **Flagged For Review:** 2
 
