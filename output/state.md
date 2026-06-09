@@ -1,9 +1,9 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_055509
-- **Started:** 2026-06-09T09:55:09.465Z
-- **Completed:** 2026-06-09T09:55:46.266Z
+- **Run ID:** run_20260609_055732
+- **Started:** 2026-06-09T09:57:32.338Z
+- **Completed:** 2026-06-09T09:58:04.150Z
 
 ## This Run
 - **Total Events In Feed:** 32
