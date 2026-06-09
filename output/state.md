@@ -1,9 +1,9 @@
 # Talent Sync Pipeline — State File
 
 ## Last Run
-- **Run ID:** run_20260609_030646
-- **Started:** 2026-06-09T07:06:46.076Z
-- **Completed:** 2026-06-09T07:07:18.227Z
+- **Run ID:** run_20260609_033036
+- **Started:** 2026-06-09T07:30:36.927Z
+- **Completed:** 2026-06-09T07:31:07.753Z
 
 ## What Was Processed
 - **Unique Events Processed:** 28
@@ -16,11 +16,11 @@
 When two events update the same field with the same timestamp, the event with the lexicographically larger event_id wins.
 
 ## Dead Letter Log
-- **evt_010** (contact.updated): missing_contact_id
+- **evt_010** (contact.updated): malformed_payload: missing or invalid contact_id in payload
 - **evt_020** (talent.vibe_check): unknown_event_type
 
 ## Review Queue
-- **c_sara** (evt_019): confidence 0.6
+- **c_sara** (evt_019): confidence 0.65
 - **c_tomas** (evt_028): confidence 0.65
 
 ## Roster Snapshot
